@@ -1,4 +1,16 @@
 {
+    "header": {
+        "apps": "Applicazioni",
+        "restart_sogo": "Riavvia SOGo",
+        "restart_netfilter": "Riavvia Netfilter",
+        "mailcow_settings": "Configurazione",
+        "administration": "Amministrzione",
+        "mailboxes": "Domini e Caselle",
+        "user_settings": "Impostazioni Utente",
+        "quarantine": "Quarantena",
+        "debug": "Informazioni Sistema"
+    },
+
     "footer": {
         "loading": "Attendere...",
         "restart_sogo": "Riavvia SOGo",
@@ -7,17 +19,13 @@
         "confirm_delete": "Conferma eliminazione",
         "delete_these_items": "Sicuro di voler eliminare gli oggetti selezionati?",
         "delete_now": "Elimina ora",
-        "cancel": "Annulla"
+        "cancel": "Annulla",
+        "hibp_nok": "Trovato! Questa password risulta vulnerabile!",
+        "hibp_ok": "Nessun record trovato."
     },
-    "header": {
-        "restart_sogo": "Riavvia SOGo",
-        "mailcow_settings": "Configurazione",
-        "administration": "Amministrazione",
-        "mailboxes": "Caselle",
-        "user_settings": "Impostazioni utente"
-    },
+    
     "danger": {
-        "dkim_domain_or_sel_invalid": "DKIM domain or selector invalid",
+        "dkim_domain_or_sel_invalid": "Dominio DKIM o il selector non validi",
         "access_denied": "Accesso negato o form di login non corretto",
         "domain_invalid": "Il nome di dominio non è valido",
         "mailbox_quota_exceeds_domain_quota": "La quota massima eccede la quota di dominio",
